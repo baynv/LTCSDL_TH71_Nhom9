@@ -14,14 +14,14 @@ class Footer extends Component {
 		return (
 				<div className="footer-component text-center">
 					<span className="footer-link">
-						<a href="#">Điều khoản</a>
-						<a href="#">Điều kiện</a>
+						<a href="# ">Điều khoản</a>
+						<a href="# ">Điều kiện</a>
 					</span>
 					<br/>
 					<span className="social-link-footer">
-						<a href="#"><i className="fa fa-facebook"></i></a>
-						<a href="#"><i className="fa fa-youtube"></i></a>
-						<a href="#"><i className="fa fa-github"></i></a>
+						<a href="# "><i className="fa fa-facebook"></i></a>
+						<a href="# "><i className="fa fa-youtube"></i></a>
+						<a href="# "><i className="fa fa-github"></i></a>
 					</span>
 					<br/>
 					<span>Copyright &copy; 2020. Design by <b>{this.formatName(author)}</b>.</span>

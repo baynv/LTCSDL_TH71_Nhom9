@@ -1,6 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import './App.css';
 import Header from './components/Header';
+import NavBar from './components/NavBar';
+import Carousel from './components/Carousel';
 import Category from './components/Category';
+
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -34,6 +38,8 @@ class App extends Component {
 	return (
 		<div className="App">
 			<Header/>
+			<NavBar/>
+			<Carousel />
 			{elmCategories}
 			<Footer/>
 		</div>
