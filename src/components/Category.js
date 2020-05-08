@@ -1,23 +1,50 @@
 import React, { Component } from 'react';
+import '../styles/Category.css';
 import Document from './Document';
 
 class Category extends Component {
-	render() {
+    render() {
+        return (
+            <div className="category">
 
-		return (
-			<div className="container">
-				<div className="category-component row">
-					<h3 className="separator">{this.props.name}</h3>
-					<div className="col-xs-3">
-						<Document name="Tài liệu 1" upl_time="20 - 04 - 2020 11:00" active={true} />
-					</div>
-					<div className="col-xs-3">
-						<Document name="Tài liệu 2" upl_time="18 - 04 - 2020 08:00" active={false} />
-					</div>
-				</div>
-			</div>
-		);
-	}
+                <div className="title">
+                    <h3>LẬP TRÌNH</h3>
+                </div>
+
+                <ul className="documents">
+                    <Document />
+                    <li>
+                        <div className="document">
+                            <a href="# ">
+                                <img alt="thumnail" />
+                            </a>
+                            <div className="file-name">
+                                TÊN DOCUMENT
+                            </div>
+                            <hr />
+                            <div className="info">
+                                <span>Thời gian / Bình luận</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="document">
+                            <a href="# ">
+                                <img alt="thumnail" />
+                            </a>
+                            <div className="file-name">
+                                TÊN DOCUMENT
+                                    </div>
+                            <hr />
+                            <div className="info">
+                                <span>Thời gian / Bình luận</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        );
+    }
 }
-
 export default Category;

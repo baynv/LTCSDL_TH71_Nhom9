@@ -1,24 +1,21 @@
 div.navigation {
     margin: 0;
     padding: 0;
-    background-color: orangered;
     align-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-ul {
+ul.navigation {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
+    margin-left: 7%;
     padding: 0;
     overflow: hidden;
 }
 
-ul.navigation {
-    margin: 0 auto;
-}
-
 ul.navigation>li {
     float: left;
-    border-right: 1px solid white;
 }
 
 ul.navigation>li:last-child {
@@ -26,18 +23,26 @@ ul.navigation>li:last-child {
 }
 
 ul.navigation li a {
-    color: white;
+    color: black;
     display: block;
-    padding: 12px 20px;
+    padding: 15px 20px;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 ul.detailmenu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
     display: none;
-    background-color: orangered;
     position: absolute;
     text-align: left;
-    z-index: 2
+    z-index: 100
+}
+
+ul.detailmenu > li {
+    border-top: 1px solid black;
 }
 
 ul.navigation>li:hover ul.detailmenu {
@@ -45,5 +50,6 @@ ul.navigation>li:hover ul.detailmenu {
 }
 
 ul.navigation li a:hover {
+    color: white;
     background-color: black;
 }

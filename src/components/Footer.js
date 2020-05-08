@@ -14,7 +14,7 @@ class Footer extends Component {
 		return (
 				<div className="footer-component text-center">
 					<span className="footer-link">
-						<a href="# ">Điều khoản</a>
+						<a href="# ">Điều khoản</a>&nbsp;
 						<a href="# ">Điều kiện</a>
 					</span>
 					<br/>

@@ -1,0 +1,16 @@
+ul.documents {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.documents > li {
+    margin: 10px;
+    float: left;
+    width: 30%;
+}
+
+ul.documents > li > a {
+    text-decoration: none;
+}
