@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 
 class Document extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+
+		}
+	}
+	
 	render() {
 		return (
 			<li>
@@ -9,11 +16,11 @@ class Document extends Component {
 						<img alt="thumnail" />
 					</a>
 					<div className="file-name">
-						TÊN DOCUMENT
-                                    </div>
+						{this.props.name}
+                    </div>
 					<hr />
 					<div className="info">
-						<span>Thời gian / Bình luận</span>
+						<span>{this.props.uploadTime} / {this.props.comments}</span>
 					</div>
 				</div>
 			</li>
