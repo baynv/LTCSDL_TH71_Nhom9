@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
+import Form from './components/Form';
 import Advertisement from './components/Advertisement';
 import Category from './components/Category';
 import PopularPosts from './components/PopularPosts';
@@ -54,6 +55,7 @@ class App extends Component {
 						<Carousel />
 					</div>
 					<div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<Form />
 						<Advertisement />
 					</div>
 				</div>

@@ -8,7 +8,7 @@ class NavBar extends Component {
                 <div className="navigation">
                     <nav>
                         <ul className="navigation">
-                            <li><a href="# "><span className="fa fa-home"></span> TRANG CHỦ</a></li>
+                            <li><a href="# "><span className="glyphicon glyphicon-home"></span>&nbsp; TRANG CHỦ</a></li>
                             <li><a href="# ">LẬP TRÌNH</a>
                                 <ul className="detailmenu">
                                     <li><a href="# ">ANDROID</a></li>

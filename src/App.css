@@ -1,1 +1,9 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+.carousel, .slide, .advertisement, .input-group {
+    margin: 20px 0;
+}
