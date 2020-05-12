@@ -5,7 +5,7 @@ ul.documents {
 ul.documents > li {
     margin: 10px;
     float: left;
-    width: 30%;
+    width: 26%;
 }
 
 ul.documents > li > a {

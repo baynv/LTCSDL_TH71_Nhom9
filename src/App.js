@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
-import Form from './components/Form';
+import SearchForm from './components/SearchForm';
 import Advertisement from './components/Advertisement';
 import Category from './components/Category';
 import PopularPosts from './components/PopularPosts';
@@ -56,7 +56,7 @@ class App extends Component {
 		let categories = this.state.categories;
 		let documents = this.state.documents;
 
-		const elmCategories = categories.map((item, index) =>
+		const elmCategory = categories.map((item, index) =>
 			<Category key={index} name={item.name} documents={documents}/>
 		);
 
@@ -64,28 +64,24 @@ class App extends Component {
 			<div className="App">
 
 				<div className="container">
+					
 					<Header />
-				</div>
 
-				<div className="container-fluid">
 					<NavBar />
-				</div>
-
-				<div className="container">
 
 					<div className="row">
 						<div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 							<Carousel />
 						</div>
 						<div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<Form />
+							<SearchForm />
 							<Advertisement />
 						</div>
 					</div>
 
 					<div className="row">
 						<div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							{elmCategories}
+							{elmCategory}
 						</div>
 						<div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<PopularPosts />

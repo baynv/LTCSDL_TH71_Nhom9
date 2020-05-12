@@ -1,0 +1,12 @@
+div.search-form .btn-black{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+div.search-form .btn-black:hover {
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
