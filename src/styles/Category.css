@@ -3,11 +3,37 @@ ul.documents {
 }
 
 ul.documents > li {
-    margin: 10px;
     float: left;
-    width: 26%;
+    padding: 2px;
+    width: 33.33%;
 }
 
 ul.documents > li > a {
     text-decoration: none;
+}
+
+
+/* ============= DOCUMENTS CSS =============== */
+
+.category .documents .document {
+    transition: all 0.3s ease;
+    transform: scale(0.8);
+    border-radius: 2px;
+    padding: 10px
+}
+
+.category .documents .document:hover {
+    transform: scale(0.9);
+    box-shadow: 0px 0px 20px #999;
+}
+
+.document .file-name {
+    padding: 10px 0px;
+}
+
+.document .info {
+    margin-top: 7px;
+}
+.document hr {
+    margin: 1px 0px;
 }

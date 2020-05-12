@@ -7,12 +7,11 @@ class Header extends Component {
 		return (
 			<header>
 				<div className="row">
-					<div className="col-xs-9 col-sm-9 col-md-9 col-lg-9 orangered">
-						<h1>FREEDOC<small>.NET</small></h1>
+					<div className="col-xs-6 col-sm-6 col-md-9">
+						<h1 href="# ">Freedoc<small>.net</small></h1>
 					</div>
-					<div className="col-xs-3 col-sm-3 col-md-3 col-lg-3 orangered">
-						<button type="button" className="btn btn-default btn-white">Đăng ký</button>
-						<button type="button" className="btn btn-default btn-black">Đăng nhập</button>
+					<div className="col-xs-6 col-sm-6 col-md-3 text-right">
+						<button type="button" data-toggle="modal" data-target="#modal-login" className="btn btn-info" title="Đăng nhập/ Đăng ký">ĐĂNG NHẬP <span className="glyphicon glyphicon-log-in"></span></button>
 					</div>
 				</div>
 			</header>

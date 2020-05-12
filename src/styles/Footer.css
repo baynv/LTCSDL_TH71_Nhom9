@@ -1,0 +1,30 @@
+.footer-component {
+    background: #000;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding-bottom: 10px;
+}
+
+.text-white {
+    color: white
+}
+
+.social-link-footer a {
+    display: inline-block;
+    margin: 0px 5px 5px 5px;
+    line-height: 35px;
+    border-radius: 50%;
+   width: 35px;
+   height: 35px;
+   border: 1px solid #fff;
+   background:#333;
+   color: white;
+   opacity: 0.8;
+   font-size: 15px;
+}
+.social-link-footer a:hover {
+    opacity: 1;
+    color: #333;
+    background: #fff;
+    transition: opacity 0.3s ease;
+}

@@ -13,7 +13,7 @@ class Document extends Component {
 			<li>
 				<div className="document">
 					<a href="# ">
-						<img alt="thumnail" />
+						<div className="thumnail" style={{"width" : "100%", "height" : "150px", "background" : "url(" + "https://images.pexels.com/photos/34153/pexels-photo.jpg" + ")", "backgroundSize" : "cover"}}></div>
 					</a>
 					<div className="file-name">
 						{this.props.name}

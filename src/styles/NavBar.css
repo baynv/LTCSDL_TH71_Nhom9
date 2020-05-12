@@ -1,15 +1,14 @@
-div.navigation {
+/*div.navigation {
     align-content: center;
     background-color: black;
 }
 
 ul.navigation {
     margin: 0 auto;
-    margin-left: 5%;
     overflow: hidden;
 }
 
-ul.navigation>li {
+ul.navigation > li {
     float: left;
 }
 
@@ -47,4 +46,65 @@ ul.navigation>li:hover ul.detailmenu {
 ul.navigation li a:hover {
     color: white;
     background-color: orangered;
+}
+
+
+@media only screen and (max-width: 768px) {
+    ul.navigation li {
+        width: 100%;
+    }
+
+    ul.navigation>li:hover ul.detailmenu {
+        width: 100%;
+    }
+
+    ul.navigation>li:hover ul.detailmenu li {
+        
+        background: #333;
+    }
+}*/
+
+.navbar .container {
+    background: #000;
+}
+.navbar .container span.icon-bar {
+    background: #fff;
+}
+
+.navbar .container .navbar-collapse .navbar-nav a {
+    color: white;
+}
+
+#main-navbar > ul > li > a {
+    padding: 10px 12px;
+}
+
+#main-navbar > ul > li > a:hover,
+#main-navbar > ul > li > a:visited,
+#main-navbar > ul > li > a:focus {
+  background: orangered !important;
+  transition: all 0.2s ease;
+}
+
+
+li.dropdown .dropdown-menu {
+  background: #333;
+}
+li.dropdown .dropdown-menu li a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+li.dropdown .dropdown-menu li a:hover,
+li.dropdown .dropdown-menu li a:visited,
+li.dropdown .dropdown-menu li a:focus {
+    background: orangered !important;
+  transition: all 0.2s ease;
+}
+
+@media only screen and (min-width: 768px) {
+    #root > div > div > nav > div, #main-navbar {
+        padding-left: 0px;
+    }
+    
 }

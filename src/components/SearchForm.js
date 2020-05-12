@@ -12,6 +12,9 @@ class SearchForm extends Component {
                         <button className="btn btn-default btn-black" type="submit">Tìm kiếm</button>
                     </span>
                 </div>
+                <div className="form-group">
+                    Từ khóa hot: <span className="badge">C++</span> <span className="badge">TOEIC</span> <span className="badge">Poster</span> <span className="badge">Intro Logo</span>
+                </div>
             </div>
         );
     }

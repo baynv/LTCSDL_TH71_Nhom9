@@ -10,7 +10,7 @@ import PopularPosts from './components/PopularPosts';
 import Footer from './components/Footer';
 
 class App extends Component {
-	constructor(props) {
+	constructor(props) {	
 		super(props);
 
 		this.state = {
@@ -31,7 +31,7 @@ class App extends Component {
 			documents: [
 				{
 					thumnail: '',
-					name: 'TÊN DOCUMENT',
+					name: 'Tên document Tên document Tên document Tên document Tên document',
 					upload_time: 'Thời gian',
 					comments: 'Bình luận'
 				},
@@ -42,7 +42,7 @@ class App extends Component {
 					comments: 'Bình luận'
 				},
 				{
-					thumnail: '',
+					thumnail: 'https://www.wikihow.com/images/2/2b/Convert-a-Word-Document-to-HTML-Step-8.jpg',
 					name: 'TÊN DOCUMENT',
 					upload_time: 'Thời gian',
 					comments: 'Bình luận'
@@ -70,20 +70,20 @@ class App extends Component {
 					<NavBar />
 
 					<div className="row">
-						<div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						<div className="col-sm-8">
 							<Carousel />
 						</div>
-						<div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<div className="col-sm-4">
 							<SearchForm />
 							<Advertisement />
 						</div>
 					</div>
 
 					<div className="row">
-						<div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						<div className="col-sm-8">
 							{elmCategory}
 						</div>
-						<div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<div className="col-sm-4">
 							<PopularPosts />
 						</div>
 					</div>
