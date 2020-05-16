@@ -4,6 +4,10 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .carousel, .slide, .advertisement, .input-group {
-    margin: 20px 0;
+    margin: 10px 0;
 }

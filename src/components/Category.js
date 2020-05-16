@@ -1,23 +1,18 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+
 import '../styles/Category.css';
-import Document from './Document';
+
+import Item from './Item';
 
 class Category extends Component {
-    constructor(props) {
-		super(props);
-
-		this.state = {
-			
-		};
-    }
-    
     render() {
-        let documents = this.props.documents;
-        const elmDocument = documents.map((item, index) => {
-            return(
-                <Document 
-                    key={index} 
-                    thumnail={item.thumnail} 
+        let items = this.props.items;
+        let elmItem = items.map((item, index) => {
+            return (
+                <Item
+                    key={index}
+                    thumnail={item.thumnail}
                     name={item.name}
                     uploadTime={item.upload_time}
                     comments={item.comments}
@@ -29,11 +24,11 @@ class Category extends Component {
             <div className="category">
 
                 <div className="title">
-                    <h3>{this.props.name}</h3>
+                    <Link to={this.props.link}> <h2>{this.props.name}</h2> </Link>
                 </div>
 
                 <ul className="documents">
-                    {elmDocument}
+                    {elmItem}
                 </ul>
 
             </div>

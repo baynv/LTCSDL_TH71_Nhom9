@@ -8,7 +8,7 @@ class Header extends Component {
 			<header>
 				<div className="row">
 					<div className="col-xs-6 col-sm-6 col-md-9">
-						<h1 href="# ">Freedoc<small>.net</small></h1>
+						<h1 style={{fontWeight: 'bold'}}>FREEDOC<small>.NET</small></h1>
 					</div>
 					<div className="col-xs-6 col-sm-6 col-md-3 text-right">
 						<button type="button" data-toggle="modal" data-target="#modal-login" className="btn btn-info" title="Đăng nhập/ Đăng ký">ĐĂNG NHẬP <span className="glyphicon glyphicon-log-in"></span></button>

@@ -5,7 +5,7 @@ class PopularPosts extends Component {
     render() {
         return (
             <div className="popular-posts">
-                <h3>BÀI VIẾT XEM NHIỀU NHẤT</h3>
+                <h3 style={{ fontWeight: 'bold'}}>BÀI VIẾT XEM NHIỀU NHẤT</h3>
                 <ul>
                     <li>
                         <div className="item-thumnail"></div>

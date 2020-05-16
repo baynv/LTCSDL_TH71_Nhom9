@@ -1,13 +1,18 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Nunito', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Hide scrollbar */
+::-webkit-scrollbar {
+	width: 0;
+}
+
+.require-label:after {
+	color: red;
+	content: " *";
 }

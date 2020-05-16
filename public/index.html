@@ -10,8 +10,8 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-      <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -22,126 +22,120 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-      <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css">
-      <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-      <title>FreeDoc</title>
-      <style>
-            body {
-                  font-family: 'Nunito', sans-serif;
-            }
-
-            .require-label:after {
-                  color: red;
-                  content: " *";
-            }
-            /* Hide scrollbar */
-            ::-webkit-scrollbar {
-            width: 0;
-            }
-      </style>
+	<link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+	<title>FreeDoc</title>
+	
 </head>
 
 <body>
-      <div id="root"></div>
+	<div id="root"></div>
 
-      <!-- Login and Sign up Modal -->
+	<!-- Login and Sign up Modal -->
 
-      <div class="modal fade" id="modal-login" role="dialog">
-            <div class="modal-dialog">
-            
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">TRUY CẬP HỆ THỐNG</h4>
-                </div>
-                <div class="modal-body">
-                  <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#login_tab">ĐĂNG NHẬP</a></li>
-                        <li><a data-toggle="tab" href="#signup_tab">ĐĂNG KÝ</a></li>
-                  </ul>
-                    
-                  <div class="tab-content">
-                  <div id="login_tab" class="tab-pane fade in active">
-                        <!-- Form Đăng nhập -->
-                        <form action="#login" style="margin-top: 20px;">
-                              <div class="form-group">
-                                    <label for="username" class="require-label">Tên đăng nhập</label>
-                                    <input type="text" required id="username" name="username" class="form-control" />
-                              </div>
+	<div class="modal fade" id="modal-login" role="dialog">
+		<div class="modal-dialog">
 
-                              <div class="form-group">
-                                    <label for="password" class="require-label">Mật khẩu</label>
-                                    <input type="password" required id="password" name="password" class="form-control" />
-                              </div>
-                              <div class="form-group">
-                                    <a href="#">Quên mật khẩu?</a>
-                              </div>
-                              <input type="submit" value="ĐĂNG NHẬP" class="btn btn-success btn-block">
-                        </form>
-                  </div>
-                  <div id="signup_tab" class="tab-pane fade">
-                        <!-- Form Đăng ký -->
-                        <form action="#register" style="margin-top: 20px;">
-                              <div class="form-group">
-                                    <label for="reemail" class="require-label">Email</label>
-                                    <input type="text" required id="reemail" name="reemail" class="form-control" />
-                              </div>
-                              
-                              <div class="form-group">
-                                    <label for="reusername" class="require-label">Tên đăng nhập</label>
-                                    <input type="text" required id="reusername" name="reusername" class="form-control" />
-                              </div>
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">TRUY CẬP HỆ THỐNG</h4>
+				</div>
+				<div class="modal-body">
+					<ul class="nav nav-tabs">
+						<li class="active"><a data-toggle="tab" href="#login_tab">ĐĂNG NHẬP</a></li>
+						<li><a data-toggle="tab" href="#signup_tab">ĐĂNG KÝ</a></li>
+					</ul>
 
-                              <div class="form-group">
-                                    <label for="repassword" class="require-label">Mật khẩu</label>
-                                    <input type="password" required id="repassword" name="repassword" class="form-control" />
-                              </div>
-                              
-                              <div class="form-group">
-                                    <label for="repasswordCf" class="require-label">Xác nhận mật khẩu</label>
-                                    <input type="password" required id="repasswordCf" name="repasswordCf" class="form-control" />
-                              </div>
+					<div class="tab-content">
+						<div id="login_tab" class="tab-pane fade in active">
+							<!-- Form Đăng nhập -->
+							<form action="#login" style="margin-top: 20px;">
+								<div class="form-group">
+									<label for="username" class="require-label">Tên đăng nhập</label>
+									<input type="text" required id="username" name="username" class="form-control" />
+								</div>
 
-                              <input type="submit" value="ĐĂNG KÝ" class="btn btn-success btn-block">
-                        </form>
+								<div class="form-group">
+									<label for="password" class="require-label">Mật khẩu</label>
+									<input type="password" required id="password" name="password"
+										class="form-control" />
+								</div>
+								<div class="form-group">
+									<a href="#">Quên mật khẩu?</a>
+								</div>
+								<input type="submit" value="ĐĂNG NHẬP" class="btn btn-success btn-block">
+							</form>
+						</div>
+						<div id="signup_tab" class="tab-pane fade">
+							<!-- Form Đăng ký -->
+							<form action="#register" style="margin-top: 20px;">
+								<div class="form-group">
+									<label for="reusername" class="require-label">Tên đăng
+										nhập</label>
+									<input type="text" required id="reusername" name="reusername"
+										class="form-control" />
+								</div>
 
-                  </div>
-                  </div>
+								<div class="form-group">
+									<label for="repassword" class="require-label">Mật khẩu</label>
+									<input type="password" required id="repassword" name="repassword"
+										class="form-control" />
+								</div>
 
-                </div>
-                <div class="modal-footer">
-                      Bằng việc nhấn vào <strong>Đăng ký</strong> hoặc <strong>Đăng nhập</strong>. <br>Bạn đã đồng ý với <a href="# ">Điều khoản</a> và <a href="# ">Điều kiện</a> của chúng tôi!
-                  <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
-                </div>
-              </div>
-              
-            </div>
-          </div>
-      <!-- End Login and Sign up Model -->
-      
+								<div class="form-group">
+									<label for="repasswordCf" class="require-label">Xác nhận mật
+										khẩu</label>
+									<input type="password" required id="repasswordCf" name="repasswordCf"
+										class="form-control" />
+								</div>
+
+								<div class="form-group">
+									<label for="reemail" class="require-label">Email</label>
+									<input type="text" required id="reemail" name="reemail" class="form-control" />
+								</div>
+
+								<input type="submit" value="ĐĂNG KÝ" class="btn btn-success btn-block">
+							</form>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="modal-footer">
+					Bằng việc <strong>Đăng nhập</strong> hoặc <strong>Đăng ký</strong>,<br /> bạn đã đồng ý
+					với <a href="# ">Điều khoản</a> và <a href="# ">Điều kiện</a> của chúng tôi!
+					<!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- End Login and Sign up Model -->
+
 	<script src="%PUBLIC_URL%/js/jquery.min.js"></script>
-      <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
-      
-      <script>
-            $('#drop-btn-programing').on('click', function() {
-                  alert("AHIHI");
-            });
-      </script>
+	<script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
 
-      <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5eba4fd68ee2956d73a04832/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+	<script>
+		$('#drop-btn-programing').on('click', function () {
+			alert("AHIHI");
+		});
+	</script>
+
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/5eba4fd68ee2956d73a04832/default';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
 
 </body>
 
