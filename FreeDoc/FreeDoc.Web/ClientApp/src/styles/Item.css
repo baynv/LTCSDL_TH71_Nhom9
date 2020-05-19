@@ -1,13 +1,17 @@
-.category .items .item {
+.items .item {
     transition: all 0.3s ease;
     transform: scale(0.8);
     border-radius: 2px;
     padding: 10px
 }
 
-.category .items .item:hover {
+.items .item:hover {
     transform: scale(0.9);
     box-shadow: 0px 0px 20px #999;
+}
+
+.items .item img {
+    width: 100%;
 }
 
 .item .file-name {
