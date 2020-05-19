@@ -13,7 +13,7 @@ export default class Home extends Component {
                 },
                 {
                     name: 'THIẾT KẾ - ĐỒ HỌA',
-                    link: '/graphicDesign',
+                    link: '/graphic-design',
                 },
                 {
                     name: 'TIẾNG ANH',

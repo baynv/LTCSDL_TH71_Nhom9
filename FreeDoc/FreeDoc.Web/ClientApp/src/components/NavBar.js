@@ -16,7 +16,7 @@ const navbar = [
     },
     {
         name  : 'THIẾT KẾ - ĐỒ HOẠ',
-        to    : '/graphicDesgin',
+        to    : '/graphic-desgin',
         exact : false,
     },
     {
@@ -55,7 +55,7 @@ export default class NavBar extends Component {
                     <div className="collapse navbar-collapse" id="main-navbar">
                         <ul className="nav navbar-nav">
                             <li>
-                            <NavLink exact to="/" activeClassName="active"><span className="glyphicon glyphicon-home"></span> TRANG CHỦ</NavLink>
+                                <NavLink exact to="/" activeClassName="active"><span className="glyphicon glyphicon-home"></span> TRANG CHỦ</NavLink>
                             </li>
 
                             <li className="dropdown">

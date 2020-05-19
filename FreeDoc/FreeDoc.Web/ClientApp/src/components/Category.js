@@ -27,7 +27,7 @@ class Category extends Component {
                     <Link to={this.props.link}> <h2>{this.props.name}</h2> </Link>
                 </div>
 
-                <ul className="documents">
+                <ul className="items">
                     {elmItem}
                 </ul>
 

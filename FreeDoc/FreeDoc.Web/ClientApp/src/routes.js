@@ -1,5 +1,3 @@
-// import React, { Component } from 'react';
-
 import Home from './views/Home';
 import Programming from './views/Programming';
 import GraphicDesign from './views/GraphicDesign';
@@ -20,12 +18,12 @@ const routes = [
         component: Programming,
     },
     {
-        path: '/graphicDesign',
+        path: '/graphic-design',
         exact: false,
         component: GraphicDesign,
     },
     {
-        path: '/English',
+        path: '/english',
         exact: false,
         component: English,
     },
