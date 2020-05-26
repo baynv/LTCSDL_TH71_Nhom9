@@ -1,71 +1,11 @@
-/*div.navigation {
-    align-content: center;
-    background-color: black;
-}
+/*
+* CURRENT IN USE
+*/
 
-ul.navigation {
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-ul.navigation > li {
-    float: left;
-}
-
-ul.navigation>li:last-child {
-    border-right: none;
-}
-
-ul.navigation li a {
-    color: white;
-    display: block;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
-}
-
-ul.detailmenu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: none;
-    position: absolute;
-    text-align: left;
-    z-index: 100
-}
-
-ul.detailmenu > li {
-    background-color: black;
-}
-
-ul.navigation>li:hover ul.detailmenu {
-    display: block;
-}
-
-ul.navigation li a:hover {
-    color: white;
-    background-color: orangered;
-}
-
-
-@media only screen and (max-width: 768px) {
-    ul.navigation li {
-        width: 100%;
-    }
-
-    ul.navigation>li:hover ul.detailmenu {
-        width: 100%;
-    }
-
-    ul.navigation>li:hover ul.detailmenu li {
-        
-        background: #333;
-    }
-}*/
-
-.navbar .container {
+#root > div > div > nav {
     background: #000;
+    border-radius: 0px;
+    border: none;
 }
 
 .navbar .container span.icon-bar {
@@ -76,35 +16,34 @@ ul.navigation li a:hover {
     color: white;
 }
 
-#main-navbar>ul>li>a {
-    padding: 15px 18px 13px 18px;
+#main-navbar > ul > li.dropdown a:hover,
+#main-navbar > ul > li a:hover,
+#main-navbar > ul > li a:focus,
+#main-navbar > ul > li.active 
+{
+    background: orangered;
+}
+#main-navbar > ul > li.dropdown a,
+#main-navbar > ul > li.dropdown.open > ul {
+    background: #000;
 }
 
-#main-navbar>ul li a:hover, #main-navbar>ul li a:focus {
-    background: orangered !important;
-    transition: all 0.2s ease;
-}
-
-#main-navbar>ul li a:visited .dropdown-menu{
-    background: black;
-    display: none;
-}
-
-#main-navbar>ul>li:hover .dropdown-menu {
-    display: block;
-}
-
-li.dropdown .dropdown-menu {
-    background:black;
-}
-
-li.dropdown .dropdown-menu li a {
+#main-navbar > ul > li.dropdown > ul > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) {
-    #root>div>div>nav>div, #main-navbar {
-        padding-left: 0px;
+    #main-navbar > ul li a:visited .dropdown-menu{
+        display: none;
+    }
+    
+    #main-navbar>ul>li:hover .dropdown-menu {
+        display: inline-block;
+        background: #000;
+    }
+
+    #root > div > div > nav > div, #main-navbar {
+        padding: 0px
     }
 }

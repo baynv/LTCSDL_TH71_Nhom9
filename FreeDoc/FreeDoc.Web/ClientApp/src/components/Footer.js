@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../styles/Footer.css';
 
-class Footer extends Component {
+export default class Footer extends Component {
 	formatName(author) {
 		return author.author1 + ' & ' + author.author2;
 	}
@@ -16,9 +16,9 @@ class Footer extends Component {
 				
 					<br/>
 					<span className="social-link-footer">
-						<a href="# "><i className="fa fa-facebook"></i></a>
-						<a href="# "><i className="fa fa-youtube"></i></a>
-						<a href="# "><i className="fa fa-github"></i></a>
+						<a href="# " className="facebook"><i className="fa fa-facebook"></i></a>
+						<a href="# " className="youtube"><i className="fa fa-youtube"></i></a>
+						<a href="# " className="github"><i className="fa fa-github"></i></a>
 					</span>
 					<br/>
 					<span className="text-white">Copyright &copy; 2020. Design by <b>{this.formatName(author)}</b>.</span>
@@ -26,4 +26,3 @@ class Footer extends Component {
 			);
 		}
 }
-export default Footer;

@@ -12,7 +12,7 @@ class Category extends Component {
             return (
                 <Item
                     key={index}
-                    thumnail={item.thumnail}
+                    thumbnail={item.thumbnail}
                     name={item.name}
                     uploadTime={item.upload_time}
                     comments={item.comments}

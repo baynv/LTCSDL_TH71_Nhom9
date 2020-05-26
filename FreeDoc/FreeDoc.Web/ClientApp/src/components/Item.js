@@ -8,7 +8,7 @@ export default class Item extends Component {
 			<li>
 				<div className="item">
 					<a href="# ">
-						<img src={require('../images/pexels-photo.jpg')} alt="thumnail"/>
+						<img src={this.props.thumbnail} alt="thumnail"/>
 					</a>
 					<div className="file-name">
 						{this.props.name}

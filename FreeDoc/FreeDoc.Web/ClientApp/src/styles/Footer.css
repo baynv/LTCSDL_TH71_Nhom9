@@ -14,17 +14,29 @@
     margin: 0px 5px 5px 5px;
     line-height: 35px;
     border-radius: 50%;
-   width: 35px;
-   height: 35px;
-   border: 1px solid #fff;
-   background:#333;
-   color: white;
-   opacity: 0.8;
-   font-size: 15px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    background: #333;
+    color: white;
+    opacity: 0.8;
+    font-size: 15px;
 }
-.social-link-footer a:hover {
+.facebook:hover {
     opacity: 1;
-    color: #333;
-    background: #fff;
+    color: white;
+    background: #1877F2;
+    transition: opacity 0.3s ease;
+}
+.youtube:hover {
+    opacity: 1;
+    color: white;
+    background: red;
+    transition: opacity 0.3s ease;
+}
+.github:hover {
+    opacity: 1;
+    color: white;
+    background: green;
     transition: opacity 0.3s ease;
 }

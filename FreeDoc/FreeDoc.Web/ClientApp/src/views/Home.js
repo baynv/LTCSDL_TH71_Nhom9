@@ -6,62 +6,132 @@ export default class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            categories: [
+            categories : [
                 {
                     name: 'LẬP TRÌNH',
                     link: '/programming',
+                    items: [
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'Tên document 1',
+                            link        : '/asd',
+                            upload_time : 'Thời gian 1',
+                            comments    : 'Bình luận 1'
+                        },
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'TÊN DOCUMENT 2',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        },
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'TÊN DOCUMENT 3',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        }
+                    ]
                 },
                 {
                     name: 'THIẾT KẾ - ĐỒ HỌA',
                     link: '/graphic-design',
+                    items: [
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'Tên document 4',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        },
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'TÊN DOCUMENT 5',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        },
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'TÊN DOCUMENT 6',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        }
+                    ]
                 },
                 {
                     name: 'TIẾNG ANH',
-                    link: '/english'
+                    link: '/english',
+                    items: [
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'Tên document 7',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        },
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'TÊN DOCUMENT 8',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        },
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'TÊN DOCUMENT 9',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        }
+                    ]
                 },
                 {
                     name: 'PHẦN MỀM',
                     link: '/software',
-                }
-            ],
-            items: [
-                {
-                    thumnail: '',
-                    name: 'Tên document Tên document Tên document Tên document Tên document',
-                    upload_time: 'Thời gian',
-                    comments: 'Bình luận'
+                    items: [
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'Tên document 10',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        },
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'TÊN DOCUMENT 11',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        },
+                        {
+                            thumbnail   : require('../images/pexels-photo.jpg'),
+                            name        : 'TÊN DOCUMENT 12',
+                            link        : '/asd',
+                            upload_time : 'Thời gian',
+                            comments    : 'Bình luận'
+                        }
+                    ]
                 },
-                {
-                    thumnail: '',
-                    name: 'TÊN DOCUMENT',
-                    upload_time: 'Thời gian',
-                    comments: 'Bình luận'
-                },
-                {
-                    thumnail: 'https://www.wikihow.com/images/2/2b/Convert-a-Word-Document-to-HTML-Step-8.jpg',
-                    name: 'TÊN DOCUMENT',
-                    upload_time: 'Thời gian',
-                    comments: 'Bình luận'
-                }
             ]
         };
     }
-
+    
 
     render() {
         let categories = this.state.categories;
-        let items = this.state.items;
-
-        let elmCategory = categories.map((item, index) => {
+        let elmCategories = categories.map((item, index) => {
             return (
-                <Category key={index} name={item.name} link={item.link} items={items} />
+                <Category key={index} name={item.name} link={item.link} items={item.items} />
             );
         });
 
         return (
             <div className="col-sm-8">
                 <Carousel />
-                {elmCategory}
+                {elmCategories}
             </div>
         );
     }

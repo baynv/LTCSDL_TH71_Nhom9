@@ -1,0 +1,13 @@
+.media-body a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.6s ease;
+}
+
+.media-body a:hover {
+    color: orangered;
+}
+
+.media-heading {
+    margin-top: 5px;
+}

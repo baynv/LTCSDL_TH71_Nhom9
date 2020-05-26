@@ -13,13 +13,13 @@ import Footer from './components/Footer';
 import routes from './routes';
 
 class App extends Component {
-
+    
     showContentRoutes = (routes) => {
         var result = null;
         if (routes.length > 0) {
             result = routes.map((route, index) => {
                 return (
-                    <Route key={index} exact={route.exact} path={route.path} component={route.component} />
+                    <Route key={index} exact={route.exact} path={route.path} component={route.main} />
                 );
             });
         }

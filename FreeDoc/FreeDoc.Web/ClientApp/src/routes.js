@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Home from './views/Home';
 import Programming from './views/Programming';
 import GraphicDesign from './views/GraphicDesign';
@@ -10,38 +12,38 @@ const routes = [
     {
         path: '/',
         exact: true,
-        component: Home,
+        main: () => <Home/>,
     },
     {
         path: '/programming',
         exact: false,
-        component: Programming,
+        main: () => <Programming/>,
     },
     {
         path: '/graphic-design',
         exact: false,
-        component: GraphicDesign,
+        main: () => <GraphicDesign/>,
     },
     {
         path: '/english',
         exact: false,
-        component: English,
+        main: ({match}) => <English match={match}/>,
     },
     {
         path: '/software',
         exact: false,
-        component: Software,
+        main: () => <Software/>,
     },
     {
         path: '/contact',
         exact: false,
-        component: Contact,
+        main: () => <Contact/>,
     },
     {
         path: '',
-        exact: false,
-        component: NotFound,
-    }
+        exact: true,
+        main: () => <NotFound/>,
+    },
 ];
 
 export default routes;

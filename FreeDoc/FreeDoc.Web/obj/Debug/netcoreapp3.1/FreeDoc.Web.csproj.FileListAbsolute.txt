@@ -29,9 +29,6 @@ D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Micr
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.csprojAssemblyReference.cache
-D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.csproj.CoreCompileInputs.cache
-D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.MvcApplicationPartsAssemblyInfo.cs
-D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.MvcApplicationPartsAssemblyInfo.cache
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.RazorAssemblyInfo.cache
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.RazorAssemblyInfo.cs
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.AssemblyInfoInputs.cache
@@ -50,3 +47,13 @@ D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\stat
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.dll
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.pdb
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.genruntimeconfig.cache
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
