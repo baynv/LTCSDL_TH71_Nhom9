@@ -65,7 +65,6 @@ export default class English extends Component {
         });
 
         return (
-
             <Switch>
                 <Route exact path='/english'>
                     <div className="col-sm-8">
@@ -86,9 +85,7 @@ export default class English extends Component {
                         </div>
                     </div>
                 </Route>
-                <Route path='/english/:id'>
-                    <Document title={posts.title} uploadTime={posts.uploadTime} comments={posts.comments}/>
-                </Route>
+                <Route path='/english/:link' component={Document}/>
             </Switch>
 
         )

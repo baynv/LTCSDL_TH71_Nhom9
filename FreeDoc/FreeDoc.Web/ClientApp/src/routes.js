@@ -12,17 +12,17 @@ const routes = [
     {
         path: '/',
         exact: true,
-        main: () => <Home/>,
+        main: ({match}) => <Home match={match}/>,
     },
     {
         path: '/programming',
         exact: false,
-        main: () => <Programming/>,
+        main: ({match}) => <Programming match={match}/>,
     },
     {
         path: '/graphic-design',
         exact: false,
-        main: () => <GraphicDesign/>,
+        main: ({match}) => <GraphicDesign match={match}/>,
     },
     {
         path: '/english',
@@ -32,7 +32,7 @@ const routes = [
     {
         path: '/software',
         exact: false,
-        main: () => <Software/>,
+        main: ({match}) => <Software match={match}/>,
     },
     {
         path: '/contact',

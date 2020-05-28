@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 
 export default class Document extends Component {
     render() {
-        console.log(this.props.title);
         return (
             <div className="col-sm-8">
                 <h1>{this.props.title}</h1>
-                <p>{this.props.uploadTime} / {this.props.comments}</p>
+                <p>Thời gian{this.props.uploadTime} / Bình luận{this.props.comments}</p>
                 <img src={require('../images/reactjs.png')} alt="poster" style={{width: '100%'}}/>
                 <div className="content">
                     Nội dung bài viết

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import '../styles/Item.css';
 
 export default class Item extends Component {
@@ -7,9 +9,9 @@ export default class Item extends Component {
 		return (
 			<li>
 				<div className="item">
-					<a href="# ">
+					<Link to={this.props.link}>
 						<img src={this.props.thumbnail} alt="thumnail"/>
-					</a>
+					</Link>
 					<div className="file-name">
 						{this.props.name}
                     </div>

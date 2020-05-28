@@ -43,8 +43,10 @@ class App extends Component {
                                 <PopularPosts />
                             </div>
                         </div>
-                        <Footer />
                     </div>
+                </div>
+                <div className="container-fluid">
+                    <Footer />
                 </div>
             </Router>
         );
