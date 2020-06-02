@@ -44,12 +44,12 @@ namespace FreeDoc.DAL.Models
 
             modelBuilder.Entity<Documents>(entity =>
             {
-                entity.HasKey(e => e.DocumentId)
+                entity.HasKey(e => e.DocumentID)
                     .HasName("PK_documents");
 
-                entity.Property(e => e.DocumentId).HasColumnName("document_id");
+                entity.Property(e => e.DocumentID).HasColumnName("DocumentID");
 
-                entity.Property(e => e.CateId).HasColumnName("cate_id");
+                entity.Property(e => e.Category).HasColumnName("Category");
 
                 entity.Property(e => e.Content)
                     .HasColumnName("content")
