@@ -439,6 +439,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.OpenApi/1.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -518,6 +527,48 @@
             "rid": "win-x86"
           }
         }
+      },
+      "Swashbuckle.AspNetCore.Swagger/5.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/5.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "5.4.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/5.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "System.Collections/4.3.0": {
         "type": "package",
@@ -1412,6 +1463,51 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "FreeDoc.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FreeDoc.Common": "1.0.0",
+          "FreeDoc.DAL": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
+        },
+        "compile": {
+          "bin/placeholder/FreeDoc.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeDoc.BLL.dll": {}
+        }
+      },
+      "FreeDoc.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
+        },
+        "compile": {
+          "bin/placeholder/FreeDoc.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeDoc.Common.dll": {}
+        }
+      },
+      "FreeDoc.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FreeDoc.Common": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
+        },
+        "compile": {
+          "bin/placeholder/FreeDoc.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeDoc.DAL.dll": {}
+        }
       }
     }
   },
@@ -2074,6 +2170,23 @@
         "runtime.json"
       ]
     },
+    "Microsoft.OpenApi/1.1.4": {
+      "sha512": "6SW0tpbJslc8LAY1XniRfLVcJa7bJUbbwvo2/ZRqfkMbJrsqIj9045vg3STtZhDhYRKhpYgjqGU11eeW4Pzyrg==",
+      "type": "package",
+      "path": "microsoft.openapi/1.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Microsoft.OpenApi.dll",
+        "lib/net46/Microsoft.OpenApi.pdb",
+        "lib/net46/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.1.4.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
     "Microsoft.Win32.Registry/4.5.0": {
       "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "type": "package",
@@ -2215,6 +2328,51 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/5.4.1": {
+      "sha512": "EY9ILzyXCAdAOmbbBM1LCTGO/T/hcRv16GrmwHWLqcBTOzZQ1lX6hUG+0BDu0xt1ti6TWMTfqEGOojsGYE5rbg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/5.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.5.4.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/5.4.1": {
+      "sha512": "HH98jkSlJX16xyt/GRzjYs9SHekQTxT6Orok29smdrQ9usBkO8B2dBlUBxCLuupsch8ol46Oq/Apx3wve0LJTg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/5.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "swashbuckle.aspnetcore.swaggergen.5.4.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/5.4.1": {
+      "sha512": "YhRB2iqO/DILvWWxgzckPefxTwjJc9jPT1NjqEW/DPcYLP8CeR4/wII0h4mnV92pDcItPD5FVFT8yNotGmWViw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/5.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "swashbuckle.aspnetcore.swaggerui.5.4.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -5244,14 +5402,34 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "FreeDoc.BLL/1.0.0": {
+      "type": "project",
+      "path": "../FreeDoc.BLL/FreeDoc.BLL.csproj",
+      "msbuildProject": "../FreeDoc.BLL/FreeDoc.BLL.csproj"
+    },
+    "FreeDoc.Common/1.0.0": {
+      "type": "project",
+      "path": "../FreeDoc.Common/FreeDoc.Common.csproj",
+      "msbuildProject": "../FreeDoc.Common/FreeDoc.Common.csproj"
+    },
+    "FreeDoc.DAL/1.0.0": {
+      "type": "project",
+      "path": "../FreeDoc.DAL/FreeDoc.DAL.csproj",
+      "msbuildProject": "../FreeDoc.DAL/FreeDoc.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "FreeDoc.BLL >= 1.0.0",
+      "FreeDoc.Common >= 1.0.0",
+      "FreeDoc.DAL >= 1.0.0",
       "Microsoft.AspNetCore.SpaServices.Extensions >= 3.1.4",
       "Microsoft.EntityFrameworkCore >= 3.1.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.4",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.4"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.4",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 5.4.1",
+      "Swashbuckle.AspNetCore.SwaggerUI >= 5.4.1"
     ]
   },
   "packageFolders": {
@@ -5283,7 +5461,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Lập trình CSDL\\btl-ltcsdl\\FreeDoc\\FreeDoc.BLL\\FreeDoc.BLL.csproj": {
+              "projectPath": "D:\\Lập trình CSDL\\btl-ltcsdl\\FreeDoc\\FreeDoc.BLL\\FreeDoc.BLL.csproj"
+            },
+            "D:\\Lập trình CSDL\\btl-ltcsdl\\FreeDoc\\FreeDoc.Common\\FreeDoc.Common.csproj": {
+              "projectPath": "D:\\Lập trình CSDL\\btl-ltcsdl\\FreeDoc\\FreeDoc.Common\\FreeDoc.Common.csproj"
+            },
+            "D:\\Lập trình CSDL\\btl-ltcsdl\\FreeDoc\\FreeDoc.DAL\\FreeDoc.DAL.csproj": {
+              "projectPath": "D:\\Lập trình CSDL\\btl-ltcsdl\\FreeDoc\\FreeDoc.DAL\\FreeDoc.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5312,6 +5500,14 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.4, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
+            "target": "Package",
+            "version": "[5.4.1, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUI": {
+            "target": "Package",
+            "version": "[5.4.1, )"
           }
         },
         "imports": [
@@ -5324,6 +5520,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5332,7 +5534,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

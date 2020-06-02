@@ -1,0 +1,12 @@
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\bin\Debug\netcoreapp3.1\FreeDoc.BLL.deps.json
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\bin\Debug\netcoreapp3.1\FreeDoc.BLL.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\obj\Debug\netcoreapp3.1\FreeDoc.BLL.csprojAssemblyReference.cache
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\obj\Debug\netcoreapp3.1\FreeDoc.BLL.AssemblyInfoInputs.cache
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\obj\Debug\netcoreapp3.1\FreeDoc.BLL.AssemblyInfo.cs
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\bin\Debug\netcoreapp3.1\FreeDoc.BLL.runtimeconfig.json
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\bin\Debug\netcoreapp3.1\FreeDoc.BLL.runtimeconfig.dev.json
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\bin\Debug\netcoreapp3.1\FreeDoc.BLL.pdb
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\obj\Debug\netcoreapp3.1\FreeDoc.BLL.csproj.CoreCompileInputs.cache
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\obj\Debug\netcoreapp3.1\FreeDoc.BLL.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\obj\Debug\netcoreapp3.1\FreeDoc.BLL.pdb
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.BLL\obj\Debug\netcoreapp3.1\FreeDoc.BLL.genruntimeconfig.cache

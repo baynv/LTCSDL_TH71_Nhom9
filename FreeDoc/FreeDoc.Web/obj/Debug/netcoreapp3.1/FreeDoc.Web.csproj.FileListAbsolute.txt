@@ -71,6 +71,14 @@ D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\runt
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\FreeDoc.BLL.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\FreeDoc.Common.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\FreeDoc.DAL.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\FreeDoc.BLL.pdb
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\FreeDoc.Common.pdb
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\FreeDoc.DAL.pdb
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.csproj.CoreCompileInputs.cache
-D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.MvcApplicationPartsAssemblyInfo.cs
 D:\Lập trình CSDL\btl-ltcsdl\FreeDoc\FreeDoc.Web\obj\Debug\netcoreapp3.1\FreeDoc.Web.MvcApplicationPartsAssemblyInfo.cache

@@ -17,6 +17,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.4.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +26,12 @@
     <Content Remove="$(SpaRoot)**" />
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FreeDoc.BLL\FreeDoc.BLL.csproj" />
+    <ProjectReference Include="..\FreeDoc.Common\FreeDoc.Common.csproj" />
+    <ProjectReference Include="..\FreeDoc.DAL\FreeDoc.DAL.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
