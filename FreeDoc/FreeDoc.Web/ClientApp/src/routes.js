@@ -15,6 +15,11 @@ const routes = [
         main: ({match}) => <Home match={match}/>,
     },
     {
+        path: '/login',
+        exact: false,
+        main: () => <Home/>,
+    },
+    {
         path: '/programming',
         exact: false,
         main: ({match}) => <Programming match={match}/>,

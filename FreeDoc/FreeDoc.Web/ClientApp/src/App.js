@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import Header from './components/Header';
+import Login from './components/Login';
 import NavBar from './components/NavBar';
 import SearchForm from './components/SearchForm';
 import Advertisement from './components/Advertisement';
@@ -32,6 +33,7 @@ class App extends Component {
                 <div className="App">
                     <div className="container">
                         <Header />
+                        <Login />
                         <NavBar />
                         <div className="row">
                             <Switch>

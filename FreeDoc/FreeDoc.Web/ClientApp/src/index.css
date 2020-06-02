@@ -11,8 +11,3 @@ body {
 ::-webkit-scrollbar {
 	width: 0;
 }
-
-.require-label:after {
-	color: red;
-	content: " *";
-}

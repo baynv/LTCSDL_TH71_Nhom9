@@ -11,3 +11,8 @@ a {
 .carousel, .slide, .advertisement, .input-group {
     margin: 10px 0;
 }
+
+.require-label:after {
+	color: red;
+	content: " *";
+}
