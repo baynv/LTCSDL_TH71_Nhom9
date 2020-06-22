@@ -1,0 +1,60 @@
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.deps.json
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csprojAssemblyReference.cache
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.AssemblyInfoInputs.cache
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.AssemblyInfo.cs
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.runtimeconfig.json
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.runtimeconfig.dev.json
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csproj.CoreCompileInputs.cache
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.genruntimeconfig.cache
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.Common.dll
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.Common.pdb
+D:\LTCSDL_192\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csproj.CopyComplete
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.deps.json
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.runtimeconfig.json
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.runtimeconfig.dev.json
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.Common.dll
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.Common.pdb
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csprojAssemblyReference.cache
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.AssemblyInfoInputs.cache
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.AssemblyInfo.cs
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csproj.CoreCompileInputs.cache
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csproj.CopyComplete
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\Lap trinh CSDL\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.genruntimeconfig.cache
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.deps.json
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.runtimeconfig.json
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.runtimeconfig.dev.json
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.Common.dll
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.Common.pdb
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csprojAssemblyReference.cache
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csproj.CoreCompileInputs.cache
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.AssemblyInfoInputs.cache
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.AssemblyInfo.cs
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csproj.CopyComplete
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.genruntimeconfig.cache
+D:\Downloads\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.deps.json
+D:\Downloads\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.runtimeconfig.json
+D:\Downloads\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.runtimeconfig.dev.json
+D:\Downloads\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\Downloads\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\Downloads\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.Common.dll
+D:\Downloads\Slideshare\Slideshare.DAL\bin\Debug\netcoreapp3.1\Slideshare.Common.pdb
+D:\Downloads\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csprojAssemblyReference.cache
+D:\Downloads\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.AssemblyInfoInputs.cache
+D:\Downloads\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.AssemblyInfo.cs
+D:\Downloads\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csproj.CoreCompileInputs.cache
+D:\Downloads\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.csproj.CopyComplete
+D:\Downloads\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\Downloads\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\Downloads\Slideshare\Slideshare.DAL\obj\Debug\netcoreapp3.1\Slideshare.DAL.genruntimeconfig.cache

@@ -1,0 +1,68 @@
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.deps.json
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.dll
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csprojAssemblyReference.cache
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.AssemblyInfoInputs.cache
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.AssemblyInfo.cs
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.runtimeconfig.json
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.runtimeconfig.dev.json
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.pdb
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.Common.dll
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.Common.pdb
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csproj.CoreCompileInputs.cache
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csproj.CopyComplete
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.dll
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.pdb
+D:\LTCSDL_192\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.genruntimeconfig.cache
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.deps.json
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.runtimeconfig.json
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.runtimeconfig.dev.json
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.dll
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.pdb
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.Common.dll
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.Common.pdb
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csprojAssemblyReference.cache
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.AssemblyInfoInputs.cache
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.AssemblyInfo.cs
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csproj.CoreCompileInputs.cache
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csproj.CopyComplete
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.dll
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.pdb
+D:\Lap trinh CSDL\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.genruntimeconfig.cache
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.deps.json
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.runtimeconfig.json
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.runtimeconfig.dev.json
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.dll
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.pdb
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.Common.dll
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.Common.pdb
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csprojAssemblyReference.cache
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csproj.CoreCompileInputs.cache
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.AssemblyInfoInputs.cache
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.AssemblyInfo.cs
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csproj.CopyComplete
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.dll
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.pdb
+D:\LTCSDL_192\BTL_LTCSDL_0906\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.genruntimeconfig.cache
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.deps.json
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.runtimeconfig.json
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.runtimeconfig.dev.json
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.dll
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.BLL.pdb
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.Common.dll
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.DAL.dll
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.Common.pdb
+D:\Downloads\Slideshare\Slideshare.BLL\bin\Debug\netcoreapp3.1\Slideshare.DAL.pdb
+D:\Downloads\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csprojAssemblyReference.cache
+D:\Downloads\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.AssemblyInfoInputs.cache
+D:\Downloads\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.AssemblyInfo.cs
+D:\Downloads\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csproj.CoreCompileInputs.cache
+D:\Downloads\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.csproj.CopyComplete
+D:\Downloads\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.dll
+D:\Downloads\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.pdb
+D:\Downloads\Slideshare\Slideshare.BLL\obj\Debug\netcoreapp3.1\Slideshare.BLL.genruntimeconfig.cache
